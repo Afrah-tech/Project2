@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Spin the Wheel</h1>
+    </header>
+    <main>
+        <section id="wheel-container">
+            <div id="indicator">▼</div>
+            <canvas id="wheel" width="500" height="500"></canvas>
+            <button id="spin-button">Spin</button>
+            <button id="reset-button">Clear Data and Start Over</button>
+        </section>
+        <section id="input-container">
+            <h2>Enter Question and Options</h2>
+            <form id="question-form">
+                <input type="text" id="question" placeholder="Enter your question" required>
+                <button type="submit">Set Question</button>
+            </form>
+            <form id="options-form">
+                <input type="text" id="option" placeholder="Enter option" required>
+                <button type="submit">Add Option</button>
+            </form>
+            <ul id="options-list"></ul>
+        </section>
+        <section id="result-container">
+            <h2 id="question-display"></h2>
+            <div id="result-box">
+                <p id="result-message">Spin the wheel to see the result!</p>
+                <div id="confetti"></div>
+                <div id="smiley">😊</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Spin the Wheel Game</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
