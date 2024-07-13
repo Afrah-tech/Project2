@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#wheel-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#indicator {
+    position: absolute;
+    left: 50%;
+    top: -2rem;
+    /* Adjust as necessary to position correctly */
+    font-size: 2rem;
+    color: red;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+#spin-button,
+#reset-button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+    margin-right: 10px;
+}
+
+#spin-button:hover,
+#reset-button:hover {
+    background: #555;
+}
+
+#input-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#options-form,
+#question-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#question,
+#option {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#options-list {
+    list-style: none;
+    padding: 0;
+}
+
+#options-list li {
+    background: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#result-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#result-box {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#result-message {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#confetti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#smiley {
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: none;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    #wheel {
+        width: 100%;
+        height: auto;
+    }
+    #options-form {
+        flex-direction: column;
+    }
+    #option {
+        margin-bottom: 1rem;
+    }
+    #result-container {
+        order: 2;
+    }
+}
