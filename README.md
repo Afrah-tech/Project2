@@ -1,10 +1,3 @@
-# [PROJECT2](https://afrah-tech.github.io/Project2)
-
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Afrah-tech/Project2)](https://github.com/Afrah-tech/Project2/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Afrah-tech/Project2)](https://github.com/Afrah-tech/Project2/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/Afrah-tech/Project2)](https://github.com/Afrah-tech/Project2)
-
-
 
 ![screenshot](images/amiresponsivetestpic.png)
 
