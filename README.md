@@ -9,7 +9,7 @@
 ![screenshot](images/amiresponsivetestpic.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://afrah-tech.github.io/Project2)
-
+ 
 ## UX
 
 Design Process for the Spin Wheel Web Application
@@ -156,8 +156,11 @@ Implementation: Implemented in index.html (result display elements) and script.j
 
 - I confirmed that ithis project is responsive , looks good and functions on all standard screen sizs using the devtools device toolbar 
 
-![screenshot]images/responsivtestpicgithub.png)
+![screenshot](images/responsivtestpicgithub.png)
 
+- I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools .
+
+![screenshot](images/lighthouestestpic.png)
 
 
 ### Validator Testing 
@@ -176,23 +179,7 @@ no errors were founded
 
 #### Cloning
 
-You can clone the repository by following these steps:
-
-1. Go to the [GitHub repository](https://github.com/Afrah-tech/Project2) 
-2. Locate the Code button above the list of files and click it 
-3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
-4. Open Git Bash or Terminal
-5. Change the current working directory to the one where you want the cloned directory
-6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Afrah-tech/Project2.git`
-7. Press Enter to create your local clone.
-
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Afrah-tech/Project2)
-
-Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
-A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+![screenshot](images/cloning.png)
 
 #### Forking
 
